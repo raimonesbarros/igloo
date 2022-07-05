@@ -1,0 +1,569 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@font-face {
+  font-family: 'Arista';
+  src: url(font/Arista-Pro-Bold-trial.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+:root{
+  --principal: #FEA3AC;
+  --fraca: #FFBDC3;
+  --forte: #B36069;
+  --opostaclara: #A3FFB8;
+  --opoataescura: #4FB365;
+  --sombra: #00000050;
+  --maximo: 1400px;
+}
+
+html{
+  scroll-behavior: smooth;
+  transition: 5s;
+}
+
+body{
+  background-color: var(--fraca);
+}
+
+.container{
+  max-width: var(--maximo);
+  margin: auto;
+}
+
+header{
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 127px;
+  width: 100%;
+  max-width: var(--maximo);
+  margin: auto;
+  padding: 0 5%;
+  z-index: 99;
+}
+
+.contain{
+  display: none;
+}
+
+img#logo{
+  float: left;
+}
+
+#nome{
+  float: left;
+  position: absolute;
+  top: -50%;
+  left: 50%;
+}
+
+nav{
+  float: left;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 100%;
+  max-width: 70%;
+  background: linear-gradient(to right, var(--principal), var(--fraca));
+  padding: 5px;
+  border-radius: 20px 0 0 20px;
+  box-shadow: var(--sombra) 1px 1px 2px;
+}
+
+nav li{
+  font-family: 'Arista', cursive;
+  float: left;
+  list-style: none;
+  width: 20%;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 20px;
+}
+
+nav li a{
+  width: 100%;
+  color: white;
+  font-weight: bold;
+}
+
+nav li:hover{
+  background-color: var(--fraca);
+}
+
+.conteudo{
+  position: relative;
+  max-width: var(--maximo);
+  margin: 0 auto 20px;
+  height: 700px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: var(--sombra) 0 0 3px;
+}
+
+img#fundo{
+  height: 100%;
+  width: 100%;
+  opacity: 0.95;
+  box-shadow: var(--sombra) 0 0 3px;
+  border-radius: 0 0 20px 20px;
+}
+
+h2#textovitrine{
+  font-family: 'Arista', cursive;
+  float: left;
+  width: 50%;
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  z-index: 1;
+  text-shadow: var(--sombra) 2px 2px 2px;
+}
+
+.fundomodelo{
+  background-color: antiquewhite;
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  right: 20px;
+  top: 90px;
+  border-radius: 50%;
+  box-shadow: var(--sombra) 1px 1px 3px;
+  overflow: hidden;
+}
+
+img#modelo{
+  float: left;
+  height: 120%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+section .h2{
+  font-family: 'Arista', cursive;
+  font-size: 3.5em;
+  text-align: center;
+  padding-top: 25px;
+}
+
+section .p{
+  font-family: 'Righteous', serif;
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 25px;
+}
+
+#produtos{
+  background-color: #CC876E;
+  box-shadow: var(--sombra) 1px 1px 3px;
+}
+
+#produtos .h2{
+  color: #95CC6E;
+  font-size:3.85em;
+}
+#produtos .p{
+  color: #E5FFE3;
+}
+
+article.box{
+  position: relative;
+  float: left;
+  height: 60%;
+  width: calc(33.55% - 14px);
+  border-radius: 20px;
+  margin: 60px 5px;
+}
+
+article img{
+  height: 100%;
+  width: 100%;
+}
+
+.texticulo{
+  background-color: #95CC6E;
+  color: #E5FFE3;
+  font-family: 'Righteous', serif;
+  width: 90%;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  border-radius: 20px;
+  font-size: 1.4em;
+}
+
+#onde{
+  background-color: #fff692;
+}
+
+#onde .h2{
+color: #FFA900;
+}
+
+#onde .p{
+  color: #FF5900;
+  font-size: 1.84em;
+}
+
+.mapa{
+  float: left;
+  height: 70%;
+  width: 60%;
+  padding: 50px 0 0 2%;
+}
+
+.mapa iframe{
+  border-radius: 20px;
+}
+
+section aside{
+  float: left;
+  height: 63%;
+  width: 36%;
+  margin: 50px 2% 0 2%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--sombra) 1px 1px 2px;
+}
+
+#aparecer{
+  display: none;
+}
+
+#contatos{
+  background-color: #F8EBC9;
+  height: 400px;
+}
+
+#contatos .h2{
+  color: #FE8565;
+  font-size: 4.45em;
+}
+
+#contatos .p{
+  color: #74B686;
+}
+
+.cont{
+  height: 50%;
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+}
+
+#whats, #insta, .icon, .texticon{
+  float: left;
+  position: relative;
+}
+
+.texticon{
+  margin: 35px 25px;
+  color: black;
+  font-size: 2em;
+}
+
+#sobre{
+  background-color: #CFCFCF;
+}
+
+#sobre .h2{
+  color: #7DD0DC;
+}
+
+#sobre .p{
+  color: #2266B3;
+}
+
+section a{
+  width: 50%;
+  transform: translate(10%, 60%);
+}
+
+#interior{
+  height: 490px;
+  width: 36%;
+  float: left;
+  margin: 2%;
+  border-radius: 50px;
+  box-shadow: var(--sombra) 0 0 3px;
+}
+
+#sobre #somos{
+  background-color: white;
+  color: black;
+  height: 490px;
+  width: 56%;
+  float: left;
+  margin: 2%;
+  padding: 30px;
+  font-size: 1.7em;
+  text-align: justify;
+  text-indent: 8%;
+  padding-top: 100px;
+  border-radius: 50px;
+  box-shadow: var(--sombra) 0 0 3px;
+}
+
+footer{
+  background-color: black;
+}
+
+.rodape{
+  font-family: 'Righteous', serif;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  box-shadow: var(--sombra), 0 0 5px;
+}
+
+footer a{
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+nav{
+  display: none;
+}
+
+.mobile{
+  display: none;
+  width: 170px;
+  position: fixed;
+  top: 50px;
+  right: 35px;
+  padding-top: 40px;
+  text-align: center;
+  list-style: none;
+  border-radius: 20px;
+  z-index: 99;
+}
+
+li{
+  width: 100%;
+}
+
+.mobile_item{
+  background: linear-gradient(to right, var(--principal), var(--fraca));
+  width: 100%;
+  font-family: 'Righteous', serif;
+  padding: 3px 5px;
+  font-size: 1.15em;
+  line-height: 1.5;
+  border-radius: 20px;
+  margin: 2px;
+}
+
+a{
+  color: white;
+}
+
+.mobile_item:hover{
+  background: rgb(184, 179, 179);
+  border-radius: 20px;
+}
+
+.contain {
+  position: fixed;
+  top: 45px;
+  right: 35px;
+  display: block;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 45px;
+  height: 7px;
+  background-color: var(--principal);
+  margin: 5px 0;
+  transition: .5s;
+  border-radius: 20px;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2{
+  opacity: 0;
+}
+
+.change .mobile{
+  display: block;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.conteudo{
+  height: 597px;
+  overflow: hidden;
+}
+
+h2#textovitrine{
+  width: 60%;
+  padding-left: 5px;
+}
+
+.fundomodelo{
+  right: -100px;
+  top: 50px;
+}
+
+#produtos .h2{
+  font-size: 3em;
+}
+
+#produtos .p{
+  font-size: 1.16em;
+}
+
+article.box{
+  float: none;
+  height: 26%;
+  width: 100%;
+  margin: 5px 0px;
+  position: relative;
+}
+
+article img{
+  width: 60%;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.texticulo{
+  bottom: 5%;
+  font-size: 1.1em;
+}
+
+#onde .h2 {
+  font-size: 2em;
+}
+
+#onde .p {
+  font-size: 1.05em;
+}
+
+.mapa{
+  float: none;
+  height: 40%;
+  width: 100%;
+  padding: 5px;
+}
+
+section aside {
+  float: none;
+  height: 38%;
+  width: 100%;
+  margin: 0;
+}
+
+#onde .p {
+  font-size: 1em;
+  padding-bottom: 10px;
+}
+
+aside img{
+  height: 130%;
+  width: 100%;
+}
+
+#aparecer{
+  display: block;
+}
+
+#sumir{
+  display: none;
+}
+
+#contatos .h2 {
+  font-size: 2.9em;
+}
+
+#contatos .p {
+  font-size: 1em;
+}
+
+.cont {
+  height: 73%;
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+}
+
+#whats, #insta, .icon, .texticon {
+  float: none;
+  padding: 5px;
+  text-align: center;
+}
+
+.icon{
+  width: 40px;
+}
+
+.texticon{
+  font-size: 1.5em;
+  margin: 5px 0;
+}
+
+a #whats{
+  margin-bottom: 50px;
+}
+
+#sobre .h2{
+  font-size: 2.4em;
+}
+
+#sobre .p {
+  font-size: 1em;
+}
+
+#sobre #somos {
+  height: 250px;
+  width: 100%;
+  float: none;
+  margin: 0;
+  padding: 10px;
+  font-size: 1.3em;
+  text-align: justify;
+  text-indent: 8%;
+  padding-top: 35px;
+  border-radius: 20px;
+}
+
+#interior {
+  height: 250px;
+  width: 100%;
+  float: none;
+  margin: 2%;
+  border-radius: 20px;
+  box-shadow: var(--sombra) 0 0 3px;
+  margin: 10px 0;
+}
+
+.rodape {
+  font-size: 0.7em;
+  padding: 20px;
+}
+
+} 

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>igloo | Sorveteria</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="shortcut icon" href="img/favicon1.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <header>
+        <img data-aos="fade" id="logo" src="img/logo150.png" alt="Logomarca igloo">
+        <h1 id="nome">Igloo Sorveteria</h1>
+        <nav data-aos="fade">
+          <ul>
+            <li><a href="#vitrine">Início</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#onde">Onde tem?</a></li>
+            <li><a href="#contatos">Contatos</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+          </ul>
+        </nav>
+    </header>
+    <div data-aos="fade" class="contain" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile">
+        <li class="mobile_item" ><a href="#vitrine">Início</a></li>
+        <li class="mobile_item" ><a href="#produtos">Produtos</a></li>
+        <li class="mobile_item" ><a href="#onde">Onde tem?</a></li>
+        <li class="mobile_item" ><a href="#contatos">Contatos</a></li>
+        <li class="mobile_item" ><a href="#sobre">Sobre</a></li>
+      </ul>
+    </div>
+    <main>
+        <section class="conteudo" id="vitrine">
+          <img id="fundo" src="img/fundo.jpg" alt="fundo amarelo com palhas de palmeira">
+          <h2  data-aos="fade-right" id="textovitrine">Não existe caminho certo para felicidade, mas um ótimo atalho é feito de sorvete.</h2>
+          <div data-aos="fade-left" class="fundomodelo">
+            <img id="modelo" src="img/capa.png" alt="Mulher com sorvete de casquinha na mão"></div>
+        </section>
+        <section data-aos="fade-up" class="conteudo" id="produtos">
+          <h2 class="h2">EXPERIMENTE</h2>
+          <p class="p">Refrescância em vários sabores</p>
+          <article class="box">
+            <img src="img/picole.png" alt="tres sorvetes de casquinha">
+            <p class="texticulo">Para quem tem pressa!</p>
+          </article>
+          <article class="box">
+            <img src="img/casquinha.png" alt="Bolas de sorvete avulsa">
+            <p class="texticulo"> Para apreciar o momento!</p>
+          </article>
+          <article class="box">
+            <img src="img/pote2lt.png" alt="potes de sorvete 2lt">
+            <p class="texticulo">Para a família toda!</p>
+          </article>
+        </section>
+        <section data-aos="fade-up"  class="conteudo" id="onde">
+          <h2 class="h2">MAPA DO TESOURO</h2>
+          <p class="p">Encontre um baú de refrescância</p>
+          <div  data-aos="fade-right"  class="mapa">
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Avenida%20Bernardo%20Say%C3%A3o,%20centro,%20Goiatins-TO&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br><style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style><a href="https://www.embedgooglemap.net">using google maps on your website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
+          </div>
+          <p class="p" id="aparecer"> Siga estas coordenadas e encontrarás um tesouro repleto de sabor!</p>
+            <aside>
+              <img data-aos="fade-left"  src="img/fachada.jpg" alt="fachada da loja">
+            </aside>
+            <p class="p" id="sumir"> Siga estas coordenadas e encontrarás um tesouro repleto de sabor!</p>
+        </section>
+        <section data-aos="fade-up"  class="conteudo" id="contatos">
+          <h2 class="h2">S.O.S igloo</h2>
+          <p class="p">Um clique para refrescar-se</p>
+          <div class="cont">
+            <a href="https://wa.me/5563991149030?text=Ol%C3%A1%2C+vim+atrav%C3%A9s+do+seu+site." target="_blank" id="whats">
+              <div>
+                <img class="icon" src="img/whatsicon.png" alt="icone do whatsapp">
+                <p class="texticon">63 9 9114-9030</p>
+              </div>
+            </a>
+            <a href="https://www.instagram.com/igloo_sorveteria/" target="_blank" id="insta">
+              <div>
+                <img class="icon" src="img/instaicon.png" alt="icone do instagram">
+                <p class="texticon" id="espaco">igloo_sorveteria</p>
+              </div>
+            </a>
+          </div>
+        </section>
+        <section data-aos="fade-up"  class="conteudo" id="sobre">
+          <h2 class="h2">Quem somos?</h2>
+          <p class="p">Somos a solução para você!</p>
+          <article>
+            <p class="p" id="somos">A sua mais nova opção para se deliciar de um saboroso sorvete,
+              seja em uma sobremesa, naquele encontro com os amigos, aquela reunião de família, 
+              ou dar aquele tapa nesse calor de Goiatins. Enfim, todas as ocasiões cabem um belo sorvete.</p>
+              <img id="interior" src="img/interior.jpg" alt="interior da loja igloo Sorveteria">
+          </article>
+        </section>
+    </main>
+    <footer>
+      <p class="rodape">Desenvolvido por <a href="">RAIMONES</a> © 2022</p>
+    </footer>
+  </div>
+  <script src="meuScript.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+    });
+  </script>
+</body>
+</html>
