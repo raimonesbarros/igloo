@@ -1,7 +1,7 @@
 # 🍨 igloo
 ## igloo sorveteria
 
-Página estática, criada para praticar HTML e CSS.
+Página estática, desenvolvida para fins de prática de conteúdo.
 
 ----
 
