@@ -15,7 +15,7 @@ E um pouquinho de Javascript dos colegas
 
 ----
 
-👉 [Ir para página](https://igloosorveteria.netlify.app/) 👈
+👉 [Ir para página](https://raimonesbarros.github.io/igloo/) 👈
 
 ----
 
