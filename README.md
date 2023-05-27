@@ -1,4 +1,4 @@
-# 🍨 igloo
+# 🍨 igloo :own
 ## igloo sorveteria
 
 Página estática, desenvolvida para fins de prática de conteúdo.
@@ -18,5 +18,8 @@ E um pouquinho de Javascript dos colegas
 👉 [Ir para página](https://raimonesbarros.github.io/igloo/) 👈
 
 ----
+
+## Legenda
+:own - Projeto próprio
 
 </div>
